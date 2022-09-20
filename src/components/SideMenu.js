@@ -1,9 +1,21 @@
-import React from "react";
+import React from 'react'
+import Logo from '../brand/Logo'
+import MenuLinks from './MenuLinks'
+import Search from './Search'
 
 function SideMenu() {
   return (
-    <aside className="side-bar open">{/* What components go here? */}</aside>
-  );
+    <aside className='side-bar open'>
+      {/* What components go here? */}
+      <Logo />
+      <MenuLinks />
+      <Search />
+    </aside>
+  )
 }
 
-export default SideMenu;
+export default SideMenu
+
+// social-media-share
+// npm i react-share
+//
